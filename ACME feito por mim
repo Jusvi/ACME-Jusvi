@@ -1,0 +1,123 @@
+import random
+
+name = ["Lia", "Bruna", "João", "Josilene", "Jubiscreia", "Josê", "Daniellle", "mariena", "narylin",
+"rango", "ally", "apelido", "hiato", "ahri", "chester", "babraba", "raquel", "ludybug", "dianaww",
+"laercia", "shuria", "ashley", "droke", "kashiel", "keiller", "pink", "floyd", "next",
+"mema", "meme", "popopo", "cooper"]
+arquivo = open("users.txt", "w")
+d=0
+
+for nome in range(1, 76):
+
+    d=(random.randint(10870, 145897126653))
+    nme=random.choice(name)
+    nome=("{}\t\t\t{}".format(nme, d))
+
+    arquivo.write(nome)
+    arquivo.write("\n")
+    d=0
+    nome=0
+arquivo.close()
+
+#part one
+
+kashiel			26441115432
+keiller			79234383414
+pink			72165237921
+raquel			18769628723
+narylin			84485574859
+hiato			29370142426
+ludybug			45467306244
+Bruna			89238113710
+Lia			11417867430
+popopo			44093909019
+shuria			90037087559
+Lia			136368478599
+mariena			101009996720
+mema			48564587848
+mariena			60532734117
+Bruna			142979039889
+pink			20341388385
+Josê			145684522610
+apelido			60975617180
+Josê			62135072888
+rango			38773486844
+popopo			31702470825
+keiller			88898988717
+ludybug			134047274267
+raquel			33408506803
+raquel			72646999805
+Daniellle			13270834046
+ashley			70942346713
+mariena			51871458809
+hiato			70273119082
+ally			110910880507
+hiato			2864315673
+Josilene			137527197298
+mema			111061700302
+Lia			39847715758
+pink			47329980771
+babraba			61653965676
+Lia			40406018821
+kashiel			22961690374
+floyd			21161903533
+Lia			1471093054
+Daniellle			117431911657
+pink			136896057163
+mariena			27580309404
+next			66152873990
+mema			61338486501
+Josilene			60771641512
+raquel			67507906545
+next			2788451327
+Bruna			104451119108
+cooper			21338952954
+mariena			123650306232
+João			105996577483
+raquel			139514616017
+next			8688111624
+laercia			113321150025
+babraba			74049161427
+popopo			39171713200
+Daniellle			143227570639
+Bruna			4232300440
+shuria			103429305541
+ludybug			90927502819
+ashley			71772661156
+hiato			51832111619
+floyd			48914364444
+chester			6189797758
+shuria			113148069037
+mema			88923416138
+keiller			21928804405
+João			113318096872
+dianaww			57684899325
+ludybug			122695476317
+next			36672527222
+raquel			142719262433
+rango			108639127973
+
+#text
+
+import random
+
+name = ["Lia", "Bruna", "João", "Josilene", "Jubiscreia", "Josê", "Daniellle", "mariena", "narylin",
+"rango", "ally", "apelido", "hiato", "ahri", "chester", "babraba", "raquel", "ludybug", "dianaww",
+"laercia", "shuria", "ashley", "droke", "kashiel", "keiller", "pink", "floyd", "next",
+"mema", "meme", "popopo", "cooper"]
+arquivo = open("users.txt", "w")
+d=0
+
+for nome in range(1, 76):
+
+    d=(random.randint(10870, 145897126653))
+    nme=random.choice(name)
+    nome=("{}\t\t\t{}".format(nme, d))
+
+    arquivo.write(nome)
+    arquivo.write("\n")
+    d=0
+    nome=0
+arquivo.close()
+
+#projeto final
